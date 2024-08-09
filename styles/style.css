@@ -129,6 +129,18 @@ li span {
   height: 30px;
   background: rgba(0, 0, 0, 0);
 }
+.giftbox:after {
+  content: "Click Me!";
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  transform: rotate(-20deg);
+  transform-origin: 0 0;
+  cursor: pointer; /* Indicates clickability */
+}
+
 .step-1 .giftbox {
   animation: wobble 0.5s linear infinite forwards;
 }
