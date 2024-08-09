@@ -35,21 +35,20 @@ li span {
 }
 .merrywrap {
   position: absolute;
-  right: 5%;   
-  left: 5%;    
-  bottom: 10%; 
-  top: 10%;    
+  right: 40px;
+  left: 40px;
+  bottom: 80px;
+  top: 40px;
 }
-
 .giftbox {
   position: absolute;
-  width: 80%;       
-  max-width: 300px; 
-  height: auto;     
+  width: 300px;
+  height: 200px;
   left: 50%;
-  margin-left: -40%; 
+  margin-left: -150px;
+  bottom: 0;
+  z-index: 10;
 }
-
 .giftbox > div {
   background: #F64747;
   position: absolute;
@@ -180,33 +179,4 @@ li span {
       transform: translateY(100%);
       opacity: 0;
  }
-}
-
-/* Media Queries for Mobile Devices */
-@media (max-width: 600px) {
-  li {
-    font-size: 1.2em;
-    padding: 0.5em;
-  }
-
-  li span {
-    font-size: 3rem;
-  }
-
-  .merrywrap {
-    right: 5%;
-    left: 5%;
-    bottom: 5%;
-    top: 5%;
-  }
-
-  .giftbox {
-    width: 90%;
-    max-width: 250px;
-    margin-left: -45%;
-  }
-
-  .giftbox:after {
-    font-size: 2rem;
-  }
 }
